@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  gap: 30px;
+}
+
+.colorBoxWrap {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.colorBox {
+  width: 250px;
+  height: 250px;
+}
+
+.names {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  overflow-y: scroll;
+  color: black;
+}
